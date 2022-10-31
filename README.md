@@ -33,32 +33,38 @@ int main(void)
 10010000 11101110 10101010 10001000
 ```
 
-In Linux, there are a number of commands we might use:
+<h2>Main, header files, commands</h2>
 
-    cd, for changing our current directory (folder)
-    cp, for copying files and directories
-    ls, for listing files in a directory
-    mkdir, for making a directory
-    mv, for moving (renaming) files and directories
-    rm, for removing (deleting) files
-    rmdir, for removing (deleting) directories
-    
-    For printf, too, there are different placeholders for each type, called format codes:
+<p>Commands:</p>
+<ul>
+   <li> cd, for changing our current directory (folder)</li>
+   <li> cp, for copying files and directories</li>
+   <li>  ls, for listing files in a directory</li>
+   <li> mkdir, for making a directory</li>
+   <li> mv, for moving (renaming) files and directories</li>
+   <li> rm, for removing (deleting) files</li>
+    <li>rmdir, for removing (deleting) directories</li>
+</ul>  
+<h2>Types, format codes, operators</h2>
 
-    %c for chars
-    %f for floats or doubles
-    %i for ints
-    %li for long integers
-    %s for strings
+ <p> format codes for printf or also know as placeholders:</p> 
+<ul>
+   <li> %c for chars</li>
+   <li> %f for floats or doubles</li>
+   <li> %i for ints</li>
+   <li> %li for long integers</li>
+  <li>  %s for strings</li>
+</ul>
+<h2></h2>
 
-There are several mathematical operators we can use, too:
-
-    + for addition
-    - for subtraction
-    * for multiplication
-    / for division
-    % for remainder
-
-
+<p>Mathematical operators:</p>
+<ul>
+   <li> + for addition</li>
+   <li> - for subtraction</li>
+   <li> * for multiplication</li>
+   <li> / for division</li>
+   <li> % for remainder</li>
 
 
+
+</ul>
