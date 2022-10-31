@@ -97,12 +97,11 @@ int main(void)
 </ul>
 <h2>Variables, syntactic sugar</h2>
 
-<p>Variables<p>
+<p>Variables</p>
+
     
-  ```
+ ```
  int counter = 0;
  ```
 
-
-
-<p>syntactic sugar, or shorthand expressions for the same functionality. We could equivalently say counter += 1; to add one to counter before storing it again. We could also just write counter++;, or even counter--; to subtract one.</p>
+<p>Syntactic sugar, or shorthand expressions for the same functionality. We could equivalently say <code>counter += 1</code>; to add one to counter before storing it again. We could also just write <code>counter++</code>;, or even <code>counter--</code>; to subtract one.</p>
