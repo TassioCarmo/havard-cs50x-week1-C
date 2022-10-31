@@ -95,3 +95,14 @@ int main(void)
    <li> / for division</li>
    <li> % for remainder</li>
 </ul>
+<h2>Variables, syntactic sugar</h2>
+
+<p>Variables<p>
+    
+  ```
+ int counter = 0;
+ ```
+
+
+
+<p>syntactic sugar, or shorthand expressions for the same functionality. We could equivalently say counter += 1; to add one to counter before storing it again. We could also just write counter++;, or even counter--; to subtract one.</p>
