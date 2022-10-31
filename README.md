@@ -45,6 +45,18 @@ int main(void)
    <li> rm, for removing (deleting) files</li>
     <li>rmdir, for removing (deleting) directories</li>
 </ul>  
+
+<h2>Functions, arguments, return values, variables</h2>
+
+<p>Side effects, it's when a fuction just "do" something like print</p>
+<img src = "https://cs50.harvard.edu/x/2022/notes/1/side_effects.png">
+
+<p>return</p>
+
+<img src = "https://cs50.harvard.edu/x/2022/notes/1/return_value.png">
+
+
+
 <h2>Types, format codes, operators</h2>
 
  <p> format codes for printf or also know as placeholders:</p> 
