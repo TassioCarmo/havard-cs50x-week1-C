@@ -13,7 +13,6 @@ When we evaluate the quality of our code, we might consider the following aspect
 
 A IDEs or integrated development environments, include features for us to write, translate, and run our code.
 
-A compiler is a program that can convert one language to another, such as source code to machine code:
 
 Source code something written in a programming language
 ```
@@ -31,6 +30,6 @@ Machine code
 ```
 10010000 11101110 10101010 10001000
 ```
-  
-  
+ A compiler is a program that can convert one language to another, such as source code to machine code:
+<img src = "https://cs50.harvard.edu/x/2022/notes/1/compiler.png">
 
