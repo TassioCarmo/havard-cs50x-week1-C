@@ -11,10 +11,11 @@ When we evaluate the quality of our code, we might consider the following aspect
 
 <h2>IDEs, compilers, interfaces</h2>
 
-A IDEs or integrated development environments, include features for us to write, translate, and run our code.
+<p>A IDEs or integrated development environments, include features for us to write, translate, and run our code.</p>
 
-
-Source code something written in a programming language
+<p>A <strong>compiler</strong> is a program that can convert one language to another, such as source code to machine code:</p>
+<img src = "https://cs50.harvard.edu/x/2022/notes/1/compiler.png">
+<p><strong>Source code</strong> something written in a programming language</p>
 ```
 #include <stdio.h>
 
@@ -25,11 +26,10 @@ int main(void)
 
 ```
 
-Machine code
+<strong>Machine code</strong>
 
 ```
 10010000 11101110 10101010 10001000
 ```
- A compiler is a program that can convert one language to another, such as source code to machine code:
-<img src = "https://cs50.harvard.edu/x/2022/notes/1/compiler.png">
+
 
