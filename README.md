@@ -141,3 +141,74 @@ int main(void)
 
 <h2>Interger overflow</h2>
 int in our virtual environment uses 32 bits,therefore if you want to use a number  bigger than 2³² use long int
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int points = get_int("How many points did you lose? ");
+
+    if (points < 2)
+    {
+        printf("You lost fewer points than me.\n");
+    }
+    else if (points > 2)
+    {
+        printf("You lost more points than me.\n");
+    }
+    else if (points == 2)
+    {
+        printf("You lost the same number of points as me.\n");
+    }
+}
+
+
+
+Instead of hard coding and using the same thing multiple times create variable
+
+int main(void)
+{
+    const int MINE = 2;
+    int points = get_int("How many points did you lose? ");
+
+    if (points < MINE)
+    {
+        printf("You lost fewer points than me.\n");
+    }
+    else if (points > MINE)
+    {
+        printf("You lost more points than me.\n");
+    }
+    else
+    {
+        printf("You lost the same number of points as me.\n");
+    }
+}
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt user to agree
+    char c = get_char("Do you agree? ");
+
+    // Check whether agreed
+    if (c == 'Y' || c == 'y')
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'N' || c == 'n')
+    {
+        printf("Not agreed.\n");
+    }
+}
+
+<h2>Conditionals, Boolean expressions</h2>
+
+"or”, represented by two vertical bars, ||, to check if at least one of them has an answer of true. (If we wanted to check that both questions have an answer of true, we would use “and”, represented by ampersands, &&.
+
+ compare two values in C, we use two equals signs, ==
+ 
+ <h2>Loops, functions</h2>The const keyword tells our compiler to ensure that the value of this variable isn’t changed, and by convention the name of the variable should be in all uppercase, MINE (to represent the number of my points).
