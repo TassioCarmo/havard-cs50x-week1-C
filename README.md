@@ -37,6 +37,8 @@ int main(void)
 
 <h2>Main, header files, commands</h2>
 
+<p>.h also known as header filers are nothing more than a menu of functions</p>
+
 <p>Commands:</p>
 <ul>
    <li> cd, for changing our current directory (folder)</li>
