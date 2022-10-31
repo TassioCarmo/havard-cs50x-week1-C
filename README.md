@@ -97,10 +97,11 @@ int main(void)
 </ul>
 <h2>Variables, syntactic sugar</h2>
 
-<p>Variables</p>
+<p>Variables,</p>
 
     
  ```
+ //value copied to left to right
  int counter = 0;
  ```
 
