@@ -120,7 +120,7 @@ int main(void)
     printf("%i\n", x + y);
 }
  ```
-improve the style of our program with comments, so you can remind what the line of code does
+improve the style of program with comments, so you can remind what the line of code does
 
  ```
 #include <cs50.h>
@@ -139,5 +139,5 @@ int main(void)
 }
  ```
 
-
-int in our virtual environment uses 32 bits,
+<h2>Interger overflow</h2>
+int in our virtual environment uses 32 bits,therefore if you want to use a number  bigger than 2³² use long int
