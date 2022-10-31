@@ -67,7 +67,16 @@ int main(void)
    <li> %li for long integers</li>
   <li>  %s for strings</li>
 </ul>
-<h2></h2>
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, %s\n", get_string("What's your name? "));
+}
+```
+
 
 <p>Mathematical operators:</p>
 <ul>
