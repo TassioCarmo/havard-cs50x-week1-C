@@ -19,14 +19,12 @@ When we evaluate the quality of our code, we might consider the following aspect
 
 
 ```
-
 #include <stdio.h>
 
 int main(void)
 {
     printf("hello, world\n");
 }
-
 
 ```
 
@@ -72,6 +70,7 @@ int main(void)
   <li>  %s for strings</li>
 </ul>
 
+
 ```
 
 #include <cs50.h>
@@ -81,6 +80,7 @@ int main(void)
 {
     printf("hello, %s\n", get_string("What's your name? "));
 }
+
 ```
 
 
@@ -91,7 +91,4 @@ int main(void)
    <li> * for multiplication</li>
    <li> / for division</li>
    <li> % for remainder</li>
-
-
-
 </ul>
