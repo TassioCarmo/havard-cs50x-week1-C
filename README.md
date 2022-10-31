@@ -17,7 +17,9 @@ When we evaluate the quality of our code, we might consider the following aspect
 <img src = "https://cs50.harvard.edu/x/2022/notes/1/compiler.png">
 <p><strong>Source code</strong> something written in a programming language</p>
 
+
 ```
+
 #include <stdio.h>
 
 int main(void)
@@ -25,7 +27,9 @@ int main(void)
     printf("hello, world\n");
 }
 
+
 ```
+
 
 <strong>Machine code</strong>
 
@@ -67,7 +71,9 @@ int main(void)
    <li> %li for long integers</li>
   <li>  %s for strings</li>
 </ul>
+
 ```
+
 #include <cs50.h>
 #include <stdio.h>
 
