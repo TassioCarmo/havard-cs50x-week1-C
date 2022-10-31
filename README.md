@@ -33,4 +33,32 @@ int main(void)
 10010000 11101110 10101010 10001000
 ```
 
+In Linux, there are a number of commands we might use:
+
+    cd, for changing our current directory (folder)
+    cp, for copying files and directories
+    ls, for listing files in a directory
+    mkdir, for making a directory
+    mv, for moving (renaming) files and directories
+    rm, for removing (deleting) files
+    rmdir, for removing (deleting) directories
+    
+    For printf, too, there are different placeholders for each type, called format codes:
+
+    %c for chars
+    %f for floats or doubles
+    %i for ints
+    %li for long integers
+    %s for strings
+
+There are several mathematical operators we can use, too:
+
+    + for addition
+    - for subtraction
+    * for multiplication
+    / for division
+    % for remainder
+
+
+
 
