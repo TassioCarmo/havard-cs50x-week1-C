@@ -106,3 +106,38 @@ int main(void)
  ```
 
 <p>Syntactic sugar, or shorthand expressions for the same functionality. We could equivalently say <code>counter += 1</code>; to add one to counter before storing it again. We could also just write <code>counter++</code>;, or even <code>counter--</code>; to subtract one.</p>
+
+Calculations
+
+ ```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+    printf("%i\n", x + y);
+}
+ ```
+improve the style of our program with comments, so you can remind what the line of code does
+
+ ```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt user for x
+    int x = get_int("x: ");
+
+    // Prompt user for y
+    int y = get_int("y: ");
+
+    // Perform addition
+    printf("%i\n", x + y);
+}
+ ```
+
+
+int in our virtual environment uses 32 bits,
