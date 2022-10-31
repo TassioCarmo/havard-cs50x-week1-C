@@ -51,7 +51,7 @@ int main(void)
 <p>Side effects, it's when a fuction just "do" something like print</p>
 <img src = "https://cs50.harvard.edu/x/2022/notes/1/side_effects.png">
 
-<p>return</p>
+<p>And when a function return something like a value to be store in a variable</p>
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/1/return_value.png">
 
