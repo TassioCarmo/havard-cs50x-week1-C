@@ -3,7 +3,7 @@
 
 When we evaluate the quality of our code, we might consider the following aspects:
 <ul>
-<li> <strong>correctness</strong>, or whether our code solves our problem correctly</li>
+<li> <strong>Correctness</strong>, or whether our code solves our problem correctly</li>
 <li> <strong>Design</strong>, or how well-written our code is, based on how efficient and readable it is
 <li> <strong>Style</strong>, or how well-formatted our code is visually</li>
 </ul>
