@@ -42,6 +42,7 @@ int main(void)
 <p>Commands:</p>
 <ul>
    <li> cd, for changing our current directory (folder)</li>
+   <li> ..cd, go back a directory</li>
    <li> cp, for copying files and directories</li>
    <li>  ls, for listing files in a directory</li>
    <li> mkdir, for making a directory</li>
