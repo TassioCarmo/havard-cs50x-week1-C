@@ -259,4 +259,6 @@ void meow(void)
     printf("meow\n");
 }
 
+ Function names should be verbs if the function changes the state of the program, and nouns if they're used to return a certain value.
+
 C reads uour code top to bottom and if it doesn't see something it before it doesn't exists
