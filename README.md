@@ -263,10 +263,10 @@ void meow(void)
 
 C reads uour code top to bottom and if it doesn't see something it before it doesn't exists
 
-Imprecision, overflow
+<h2>Imprecision, overflow</h2>
 
 
-
+```
 int main(void)
 {
     // Prompt user for x
@@ -280,8 +280,9 @@ int main(void)
     //give 2 decimals
     printf("%.2f\n", z);
 }
+```
 
-floating-point imprecision
+<h2>floating-point imprecision</h2>
 
 %.50 = 0.66666668653488159179687500000000000000000000000000
 
