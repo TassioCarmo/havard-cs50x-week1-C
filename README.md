@@ -242,3 +242,21 @@ for (int i = 0; i < 3; i++)
 }
 ```
 when there is only one line in a for and if loop you don't need to use {} but it's a good practice to use it
+
+
+void meow(void);
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        meow();
+    }
+}
+
+void meow(void)
+{
+    printf("meow\n");
+}
+
+C reads uour code top to bottom and if it doesn't see something it before it doesn't exists
