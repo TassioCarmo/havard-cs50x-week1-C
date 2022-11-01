@@ -282,6 +282,19 @@ int main(void)
 }
 ```
 
+nested array
+
+```
+ //for each row
+ for(int i = 0; i < 1; i++){
+
+     //for each column
+     for(int j = 0; j < height; j++){
+     }
+ }
+
+```
+
 <h2>floating-point imprecision</h2>
 
 %.50 = 0.66666668653488159179687500000000000000000000000000
