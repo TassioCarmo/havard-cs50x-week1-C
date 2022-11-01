@@ -207,8 +207,9 @@ int main(void)
 
 <h2>Conditionals, Boolean expressions</h2>
 
-"or”, represented by two vertical bars, ||, to check if at least one of them has an answer of true. (If we wanted to check that both questions have an answer of true, we would use “and”, represented by ampersands, &&.
+<p>"or”, represented by two vertical bars, <code>||</code>, to check if at least one of them has an answer of true.</p>
+<p> we would use “and”, represented by ampersands, <code>&&</code>to check that both questions have an answer of true.</p>
 
- compare two values in C, we use two equals signs, ==
+ <p>compare two values in C, we use two equals signs, <code>==</code></p>
  
  <h2>Loops, functions</h2>The const keyword tells our compiler to ensure that the value of this variable isn’t changed, and by convention the name of the variable should be in all uppercase, MINE (to represent the number of my points).
