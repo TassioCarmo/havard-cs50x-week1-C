@@ -142,6 +142,7 @@ int main(void)
 <h2>Interger overflow</h2>
 int in our virtual environment uses 32 bits,therefore if you want to use a number  bigger than 2³² use long int
 
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -163,10 +164,10 @@ int main(void)
     }
 }
 
-
+```
 
 Instead of hard coding and using the same thing multiple times create variable
-
+```
 int main(void)
 {
     const int MINE = 2;
@@ -185,7 +186,9 @@ int main(void)
         printf("You lost the same number of points as me.\n");
     }
 }
+```
 
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -204,7 +207,7 @@ int main(void)
         printf("Not agreed.\n");
     }
 }
-
+```
 <h2>Conditionals, Boolean expressions</h2>
 
 <p>"or”, represented by two vertical bars, <code>||</code>, to check if at least one of them has an answer of true.</p>
@@ -217,21 +220,22 @@ int main(void)
 
 A while loop repeats over and over as long as the expression inside is true
 
+```
 int counter = 0;
 while (counter < 3)
 {
     printf("meow\n");
     counter = counter + 1;
 }
-
+```
 
 For loop, initialize variable; condition that checked; what you do after each loop
 
-
+```
 // initialize i to 0, check if the condition is true, print the message , increment the variable , check again if the condition is true
 for (int i = 0; i < 3; i++)
 {
     printf("meow\n");
 }
-
+```
 when there is only one line in a for and if loop you don't need to use {} but it's a good practice to use it
