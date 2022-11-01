@@ -287,3 +287,7 @@ int main(void)
 %.50 = 0.66666668653488159179687500000000000000000000000000
 
 the inability for computers to represent all possible real numbers with a finite number of bits, like 32 bits for a float
+
+<h2>integer overflow</h2>
+
+when you surpass the available bits like tcount to 8 with 3bits 000, it's impossible so you need more 1000
