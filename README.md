@@ -232,7 +232,9 @@ while (counter < 3)
 For loop, initialize variable; condition that checked; what you do after each loop
 
 ```
-// initialize i to 0, check if the condition is true, print the message , increment the variable , check again if the condition is true
+/*  initialize i to 0, check if the condition is true, print the message,
+    increment the variable , check again if the condition is true
+*/
 for (int i = 0; i < 3; i++)
 {
     printf("meow\n");
