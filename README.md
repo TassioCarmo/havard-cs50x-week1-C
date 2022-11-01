@@ -262,3 +262,27 @@ void meow(void)
  Function names should be verbs if the function changes the state of the program, and nouns if they're used to return a certain value.
 
 C reads uour code top to bottom and if it doesn't see something it before it doesn't exists
+
+Imprecision, overflow
+
+
+
+int main(void)
+{
+    // Prompt user for x
+    float x = get_float("x: ");
+
+    // Prompt user for y
+    float y = get_float("y: ");
+
+    // Divide x by y
+    float z = x / y;
+    //give 2 decimals
+    printf("%.2f\n", z);
+}
+
+floating-point imprecision
+
+%.50 = 0.66666668653488159179687500000000000000000000000000
+
+the inability for computers to represent all possible real numbers with a finite number of bits, like 32 bits for a float
