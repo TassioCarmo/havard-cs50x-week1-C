@@ -291,3 +291,5 @@ the inability for computers to represent all possible real numbers with a finite
 <h2>integer overflow</h2>
 
 when you surpass the available bits like tcount to 8 with 3bits 000, it's impossible so you need more 1000
+
+And there is imprecision in storing the float we get from an user like in(4.20 might be stored as 4.199999...),
