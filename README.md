@@ -213,3 +213,25 @@ int main(void)
  <p>compare two values in C, we use two equals signs, <code>==</code></p>
  
  <h2>Loops, functions</h2>The const keyword tells our compiler to ensure that the value of this variable isn’t changed, and by convention the name of the variable should be in all uppercase, MINE (to represent the number of my points).
+
+
+A while loop repeats over and over as long as the expression inside is true
+
+int counter = 0;
+while (counter < 3)
+{
+    printf("meow\n");
+    counter = counter + 1;
+}
+
+
+For loop, initialize variable; condition that checked; what you do after each loop
+
+
+// initialize i to 0, check if the condition is true, print the message , increment the variable , check again if the condition is true
+for (int i = 0; i < 3; i++)
+{
+    printf("meow\n");
+}
+
+when there is only one line in a for and if loop you don't need to use {} but it's a good practice to use it
