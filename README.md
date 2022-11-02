@@ -312,7 +312,7 @@ Others
 
 unsigned "int/char/float/etc" = ignore nagative number
 
-Switch
+Switch , uses discrete cases to make decisions
 ````
 switch(x)
 {
