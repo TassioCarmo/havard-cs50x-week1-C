@@ -306,3 +306,34 @@ the inability for computers to represent all possible real numbers with a finite
 when you surpass the available bits like tcount to 8 with 3bits 000, it's impossible so you need more 1000
 
 And there is imprecision in storing the float we get from an user like in(4.20 might be stored as 4.199999...),
+
+
+Others
+
+unsigned "int/char/float/etc" = ignore nagative number
+
+Switch
+````
+switch(x)
+{
+    case 1:
+    print("five")
+        case 2:
+    print("four")
+        case 3:
+    print("three")
+        case 4:
+    print("two")
+        case 5:
+    print("one")
+    default
+    ("go")
+}
+
+//without a break it'll go through all the cases 
+```
+#ternary operator ?:
+
+<code> int x = (exp)? 5 : 6 </code>
+
+same thing as if and lese if()exp true x=5 else x=6
