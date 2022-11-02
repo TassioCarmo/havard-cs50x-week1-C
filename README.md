@@ -337,3 +337,7 @@ switch(x)
 <code> int x = (exp)? 5 : 6 </code>
 
 same thing as if and lese if()exp true x=5 else x=6
+
+Magic Numbers 
+
+numbers that don't change
