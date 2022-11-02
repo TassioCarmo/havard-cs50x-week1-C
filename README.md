@@ -341,8 +341,10 @@ same thing as if and lese if()exp true x=5 else x=6
 Magic Numbers 
 
 numbers that don't change
-
+Wrong
  for(int i = 0; i < 10; i++){
- for(int i = 0; i < deck; i++){
+ Right
+ constant DECK = 10;
+ for(int i = 0; i < DECK; i++){
 
 
