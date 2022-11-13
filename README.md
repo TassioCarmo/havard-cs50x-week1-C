@@ -64,7 +64,7 @@ int main(void)
 
 
 
-<h2>Types, format codes, operators</h2>
+<h2>Types, format codes, operators in C</h2>
 
  <p> format codes for printf or also know as placeholders:</p> 
 <ul>
