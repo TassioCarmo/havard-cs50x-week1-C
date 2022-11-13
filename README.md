@@ -97,7 +97,7 @@ int main(void)
    <li> / for division</li>
    <li> % for remainder</li>
 </ul>
-<h2>Variablesr</h2>
+<h2>Variables</h2>
    
  ```
  //value copied to left to right
