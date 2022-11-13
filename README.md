@@ -143,6 +143,10 @@ int main(void)
 <h2>Interger overflow</h2>
 int in our virtual environment uses 32 bits,therefore if you want to use a number  bigger than 2³² use long int
 
+In other words when you surpass the available bits like counting to 8 with 3 bits 000, wellyou can't it's impossible because you need 4 bits  1000
+
+And there is imprecision in storing the float we get from an user like in(4.20 might be stored as 4.199999...),
+
 ```
 #include <cs50.h>
 #include <stdio.h>
@@ -302,14 +306,11 @@ nested array
 
 the inability for computers to represent all possible real numbers with a finite number of bits, like 32 bits for a float
 
-<h2>integer overflow</h2>
-
-when you surpass the available bits like tcount to 8 with 3bits 000, it's impossible so you need more 1000
 
 And there is imprecision in storing the float we get from an user like in(4.20 might be stored as 4.199999...),
 
 
-Others
+## Others
 
 unsigned "int/char/float/etc" = ignore nagative number
 
