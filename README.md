@@ -312,9 +312,9 @@ And there is imprecision in storing the float we get from an user like in(4.20 m
 
 ## Others
 
-unsigned "int/char/float/etc" = ignore nagative number
+**unsigned** somethin(g "int/char/float/etc") to ignore ignore nagative number
 
-Switch , uses discrete cases to make decisions
+**Switch** , uses discrete cases to make decisions
 ````
 switch(x)
 {
