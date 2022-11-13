@@ -1,6 +1,8 @@
 <h1>Introduction to the C language </h1>
 <h1>What did i learn?</h1>
 
+# IMPORTANT
+
 When we evaluate the quality of our code, we might consider the following aspects:
 <ul>
 <li> <strong>Correctness</strong>, or whether our code solves our problem correctly</li>
