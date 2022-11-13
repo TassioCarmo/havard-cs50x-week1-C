@@ -11,6 +11,9 @@ When we evaluate the quality of our code, we might consider the following aspect
 </ul>
 <p>The most important here is not only your code to be correct but it must be <strong>well-designed</strong> to be easier to read months from now by you or someone else or some maintenance</p>
 
+Remember better designed also means it doesn't use up too much memory, and it isn't redundant
+
+
 <h2>IDEs, compilers, interfaces</h2>
 
 <p>A IDEs or integrated development environments, include features for us to write, translate, and run our code.</p>
