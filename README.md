@@ -41,7 +41,7 @@ int main(void)
 
 <p>.h also known as header filers are nothing more than a menu of functions</p>
 
-<p>Commands:</p>
+# Terminal Commands:
 <ul>
    <li> cd, for changing our current directory (folder)</li>
    <li> cd.., go back a directory</li>
