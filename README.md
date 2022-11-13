@@ -108,7 +108,7 @@ int main(void)
 
 shorthand expressions for the same functionality. We could equivalently say <code>counter += 1</code>; to add one to counter before storing it again. We could also just write <code>counter++</code>;, or even <code>counter--</code>; to subtract one.</p>
 
-Calculations
+## Calculations
 
  ```
 #include <cs50.h>
