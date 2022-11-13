@@ -97,17 +97,16 @@ int main(void)
    <li> / for division</li>
    <li> % for remainder</li>
 </ul>
-<h2>Variables, syntactic sugar</h2>
-
-<p>Variables,</p>
-
-    
+<h2>Variablesr</h2>
+   
  ```
  //value copied to left to right
  int counter = 0;
  ```
 
-<p>Syntactic sugar, or shorthand expressions for the same functionality. We could equivalently say <code>counter += 1</code>; to add one to counter before storing it again. We could also just write <code>counter++</code>;, or even <code>counter--</code>; to subtract one.</p>
+## Syntactic sugar
+
+shorthand expressions for the same functionality. We could equivalently say <code>counter += 1</code>; to add one to counter before storing it again. We could also just write <code>counter++</code>;, or even <code>counter--</code>; to subtract one.</p>
 
 Calculations
 
